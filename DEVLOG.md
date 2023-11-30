@@ -6,7 +6,7 @@ I am excited at the thought of writing my own code again.
 
 I've been mentally blocked for a while now. Right now I'm still tired/not sleeping well so I'm not as good as I can be.
 
-<img src="./concent-ui.JPG"/>
+<img src="./concept-ui.JPG"/>
 
 You can see the design above. Pretty much you have a starting main text body area, then if you want more add tabs...
 
