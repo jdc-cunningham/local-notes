@@ -58,4 +58,3 @@ That way I can see progression over time of when a line of text was added.
 Back to analog lol, no remarkable/surface book
 
 <img src="./different-views.JPG"/>
-![Alt text](image.png)
