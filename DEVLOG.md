@@ -1,4 +1,32 @@
-11/30/2023
+#### 12/03/2023
+
+3:38 PM
+
+Alright... man has sleep, time to write code for myself
+
+This is a mental collection tool not for money (make something towards making money)
+
+3:47 PM
+
+There is this "it's so much work" wall to overcome but I need to get into the zone again.
+
+Here are the parts to be made broken down
+
+<img src="./ui-components.png"/>
+
+I was thinking about it, I think I'll have a `localStorage` entry for the tabs, then they have a map to the `tab => content` this way I can use that first set as a tab array and then find the data to load per active tab.
+
+Oh yeah will need an `x` to close a tab
+
+No way to delete, guess inside the body top right `delete` option... sucks unused space, trash icon maybe
+
+Ahh... this UI doesn't make sense though, even if you have the grid view would be nice to have tabs still to pick which ones are shown.
+
+Don't really want a search modal.
+
+I have note taking apps already, issue is they are not multi-view/easy to switch like a tabbed interface.
+
+#### 11/30/2023
 
 10:55 AM
 
@@ -30,3 +58,4 @@ That way I can see progression over time of when a line of text was added.
 Back to analog lol, no remarkable/surface book
 
 <img src="./different-views.JPG"/>
+![Alt text](image.png)
