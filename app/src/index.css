@@ -1,3 +1,7 @@
+body {
+  display: block;
+}
+
 body * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
