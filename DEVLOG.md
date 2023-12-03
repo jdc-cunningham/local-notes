@@ -70,6 +70,14 @@ I've been grabbing icons mostly
 
 my fingers feel gross damn, on this keyboard, keep having to wash them
 
+it's so funny my cat likes to sit on the router
+
+<img src="./router-cat.JPG"/>
+
+5:10 PM
+
+ahhhhhhh it's so much work, it's not hard but it's work
+
 
 
 #### 11/30/2023
