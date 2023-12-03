@@ -12,7 +12,7 @@ There is this "it's so much work" wall to overcome but I need to get into the zo
 
 Here are the parts to be made broken down
 
-<img src="./ui-components.png"/>
+<img src="./devlog-images/ui-components.png"/>
 
 I was thinking about it, I think I'll have a `localStorage` entry for the tabs, then they have a map to the `tab => content` this way I can use that first set as a tab array and then find the data to load per active tab.
 
@@ -42,7 +42,7 @@ alright I'm distracted time to start working
 
 I have a cat in the way though
 
-<img src="./cat.JPG"/>
+<img src="./devlog-images/cat.JPG"/>
 
 4:24 PM
 
@@ -73,7 +73,7 @@ my fingers feel gross damn, on this keyboard, keep having to wash them
 
 it's so funny my cat likes to sit on the router
 
-<img src="./router-cat.JPG"/>
+<img src="./devlog-images/router-cat.JPG"/>
 
 5:10 PM
 
@@ -87,7 +87,7 @@ switched to a loopable Korn song Beg for Me let's gooo
 
 man it's ugly...
 
-<img src="./overflow.JPG"/>
+<img src="./devlog-images/overflow.JPG"/>
 
 I did add some more complicated stuff, the `Tab` component for example
 
@@ -99,7 +99,7 @@ I am excited at the thought of writing my own code again.
 
 I've been mentally blocked for a while now. Right now I'm still tired/not sleeping well so I'm not as good as I can be.
 
-<img src="./concept-ui.JPG"/>
+<img src="./devlog-images/concept-ui.JPG"/>
 
 You can see the design above. Pretty much you have a starting main text body area, then if you want more add tabs...
 
@@ -122,4 +122,4 @@ That way I can see progression over time of when a line of text was added.
 
 Back to analog lol, no remarkable/surface book
 
-<img src="./different-views.JPG"/>
+<img src="./devlog-images/different-views.JPG"/>
