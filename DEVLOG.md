@@ -50,9 +50,10 @@ Alright... NOS time and time to bust this out (focus loop music)
 
 Oh wait, I forgot the requirements/specs
 
-- [ ] remove starter code, css reset
-- [ ] app -> header, body
-- [ ] build out components
+- [x] remove starter code, css reset
+- [x] app -> header, body
+- [x] build out components
+- [ ] build out and style base layout
 - [ ] add `localStorage` db
 - [ ] add search
 - [ ] maybe add auto timestamp
@@ -78,7 +79,17 @@ it's so funny my cat likes to sit on the router
 
 ahhhhhhh it's so much work, it's not hard but it's work
 
+5:18 PM
 
+switched to a loopable Korn song Beg for Me let's gooo
+
+5:42 PM
+
+man it's ugly...
+
+<img src="./overflow.JPG"/>
+
+I did add some more complicated stuff, the `Tab` component for example
 
 #### 11/30/2023
 

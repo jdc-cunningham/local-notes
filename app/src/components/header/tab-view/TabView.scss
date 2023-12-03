@@ -1,0 +1,27 @@
+.TabView, .TabView__tabs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex: 1;
+}
+
+.TabView__add, .TabView__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.TabView__search {
+  border: 0;
+}

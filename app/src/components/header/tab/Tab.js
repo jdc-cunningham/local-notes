@@ -6,11 +6,11 @@ const Tab = (props) => {
 
   return (
     <div className="Tab">
-      <div clasName="Tab__name">
+      <div className="Tab__name">
         {name}
       </div>
-      <button type="button">
-        <img src={CloseIcon} alt="delete note"/>
+      <button type="button" className="Tab__close">
+        <img src={CloseIcon} alt="close note"/>
       </button>
     </div>
   );
