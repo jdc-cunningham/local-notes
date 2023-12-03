@@ -60,6 +60,14 @@ Oh wait, I forgot the requirements/specs
 
 That's just a rough plan, not exact
 
+4:42 PM
+
+let's go baby he's in the zone autozone
+
+I've been grabbing icons mostly
+
+
+
 #### 11/30/2023
 
 10:55 AM
