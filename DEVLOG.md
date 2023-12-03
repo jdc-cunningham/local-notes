@@ -26,6 +26,40 @@ Don't really want a search modal.
 
 I have note taking apps already, issue is they are not multi-view/easy to switch like a tabbed interface.
 
+3:58 PM
+
+then the search will prioritize the tab names, then body content
+
+I think I'll just use a back arrow when in search mode to go back to tab view but the single view vs. grid will be a separate icon as shown in drawing.
+
+Single is actually a vertical stack, that can be nice for more space and should be collapsible.
+
+Alright now to write up the stuff to build.
+
+4:16 PM
+
+alright I'm distracted time to start working
+
+I have a cat in the way though
+
+<img src="./cat.JPG"/>
+
+4:24 PM
+
+Alright... NOS time and time to bust this out (focus loop music)
+
+Oh wait, I forgot the requirements/specs
+
+- [ ] remove starter code, css reset
+- [ ] app -> header, body
+- [ ] build out components
+- [ ] add `localStorage` db
+- [ ] add search
+- [ ] maybe add auto timestamp
+- [ ] maybe add photo support (means using contentEditable)
+
+That's just a rough plan, not exact
+
 #### 11/30/2023
 
 10:55 AM
