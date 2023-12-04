@@ -1,0 +1,44 @@
+.BodyVertical {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.BodyVertical__note {
+  position: relative;
+  width: 100%;
+
+  textarea {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+  }
+
+  &:hover {
+    .BodyVertical__note-delete {
+      display: flex;
+    }
+  }
+}
+
+.BodyVertical__note-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}

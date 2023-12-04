@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
 import GridIcon from './assets/icons/four-squares-line-icon.svg';
 import VerticalIcon from './assets/icons/three-horizontal-lines-outline-icon.svg';
@@ -10,6 +10,10 @@ import BodyGrid from './components/body/body-grid/BodyGrid';
 function App() {
   const [tabViewActive, setTabViewActive] = useState(true);
   const [bodyVerticalActive, setBodyVerticalActive] = useState(true);
+
+  useEffect(() => {
+    
+  }, []);
 
   return (
     <div className="App">

@@ -91,6 +91,24 @@ man it's ugly...
 
 I did add some more complicated stuff, the `Tab` component for example
 
+5:48 PM
+
+right now I'm just making the UI parts, then I'll add the storage/logic to make it actually work
+
+5:53 PM
+
+hmm... tab view and vertical doesn't make sense... I still do want to see multiple notes at the same time though/collapsible.
+
+No way to collapse without adding a top bar... or build it into the UI/overlay like delete
+
+5:58 PM
+
+in the back of my mind I'm like "This is a waste of time"
+
+but I will use it, to take notes
+
+maybe a modal note add is inevitable, not a big deal
+
 #### 11/30/2023
 
 10:55 AM
