@@ -125,6 +125,24 @@ Kind of odd like no point in having tabs if they're all visible, I guess you cou
 
 I need data... have to do the data storage/retrieval I've just lost steam damn
 
+6:17 PM
+
+see the goal... want to have sets of notes
+
+taking a brief break, need to get this done today since I have other things to make/do before I start working at amazon warehouse lmao (prophecy fulfilled)
+
+6:37 PM
+
+can of tuna and mayo
+
+7:31 PM
+
+still watching tv, going down the dark path
+
+8:07 PM
+
+still chilling, I may be done for today, wrap it up tomorrow
+
 ---
 
 #### 11/30/2023
