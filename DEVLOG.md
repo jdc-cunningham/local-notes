@@ -109,6 +109,24 @@ but I will use it, to take notes
 
 maybe a modal note add is inevitable, not a big deal
 
+6:03 pM
+
+might be dumb but an epoch timestamp is an easy unique id
+
+6:08 PM
+
+I'm losing momentum damn...
+
+I'll just append active note bodies in vertical view/flow in grid view
+
+Kind of odd like no point in having tabs if they're all visible, I guess you could jump/scroll to it or highlight it briefly
+
+6:14 PM
+
+I need data... have to do the data storage/retrieval I've just lost steam damn
+
+---
+
 #### 11/30/2023
 
 10:55 AM

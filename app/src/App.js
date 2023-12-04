@@ -10,9 +10,16 @@ import BodyGrid from './components/body/body-grid/BodyGrid';
 function App() {
   const [tabViewActive, setTabViewActive] = useState(true);
   const [bodyVerticalActive, setBodyVerticalActive] = useState(true);
+  const [noteTabs, setNoteTabs] = useState([]); // all
+  const [activeNoteTabs, setActiveNoteTabs] = useState([]);
+  const [activeNoteTab, setActiveNoteTab] = useState(0);
 
   useEffect(() => {
-    
+    const localStorageNoteTabs = localStorage.getItem('local-notes-tabs') ?? [];
+
+    if (localStorageNoteTabs.length) {
+      setNoteTabs(localStorageNoteTabs);
+    }
   }, []);
 
   return (

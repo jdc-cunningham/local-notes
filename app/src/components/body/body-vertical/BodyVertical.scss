@@ -14,7 +14,7 @@
   textarea {
     width: 100%;
     font-size: 1.5rem;
-    padding: 0.25rem;
+    padding: 0.5rem;
   }
 
   &:hover {
@@ -26,8 +26,8 @@
 
 .BodyVertical__note-delete {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0.25rem;
+  right: 0.25rem;
   width: 2rem;
   height: 2rem;
   display: none;
