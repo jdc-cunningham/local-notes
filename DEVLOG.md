@@ -22,7 +22,21 @@ I gotta stop sleeping 12hrs+ a day, let's go focus mode
 
 I need this thing to keep track of all the stuff I gotta remember
 
+5:39 PM
 
+I'm probably not going to add the full feature set here, because it's not going to help me long term with my other things I need to do before I start working at the warehouse.
+
+I'll add the basic crud functionality
+
+Maybe I'll do tabbed vs. tiled as the two modes
+
+5:55 PM
+
+alright, starting to have something that works now
+
+<img src="./devlog-images/tabs.JPG"/>
+
+this works right here but no delete, no grid view
 
 #### 12/03/2023
 

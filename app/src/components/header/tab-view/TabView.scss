@@ -6,6 +6,12 @@
   flex: 1;
 }
 
+.TabView__tabs .Tab {
+  &:not(:first-of-type) {
+    margin-left: 0.5rem;
+  }
+}
+
 .TabView__add, .TabView__search {
   display: flex;
   align-items: center;

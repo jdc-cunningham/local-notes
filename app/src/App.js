@@ -11,29 +11,32 @@ import BodyVertical from './components/body/body-vertical/BodyVertical';
 import BodyGrid from './components/body/body-grid/BodyGrid';
 import AddNote from './components/modal/add-note/AddNote';
 
-import { addNote } from './data';
+import { addNote, getNotes, updateNote } from './data';
 
 function App() {
   const [tabViewActive, setTabViewActive] = useState(true);
   const [bodyVerticalActive, setBodyVerticalActive] = useState(true);
+  const [noteData, setNoteData] = useState([]);
   const [noteTabs, setNoteTabs] = useState([]); // all
   const [activeNoteTabs, setActiveNoteTabs] = useState([]);
   const [activeNoteTab, setActiveNoteTab] = useState(0);
   const [showModal, setShowModal] = useState(false); // only 1 modal right now
 
-  useEffect(() => {
-    const localStorageNoteTabs = localStorage.getItem('local-notes-tabs') ?? [];
+  const refreshData = () => {
+    const noteData = getNotes();
+    setNoteData(noteData); 
+  }
 
-    if (localStorageNoteTabs.length) {
-      setNoteTabs(localStorageNoteTabs);
-    }
+  useEffect(() => {
+    const noteData = getNotes();
+    setNoteData(noteData);
   }, []);
 
   return (
     <div className="App">
-      {showModal && <AddNote setShowModal={setShowModal} addNote={addNote} />}
+      {showModal && <AddNote setShowModal={setShowModal} addNote={addNote} refreshData={refreshData}/>}
       <div className="App__header">
-        {tabViewActive && <TabView setShowModal={setShowModal} />}
+        {tabViewActive && <TabView setShowModal={setShowModal} noteData={noteData}/>}
         {!tabViewActive && <TabSearch/>}
         {bodyVerticalActive &&
           <button type="button" className="App__header-grid-view">
@@ -46,8 +49,12 @@ function App() {
         }
       </div>
       <div className="App__body">
-        {bodyVerticalActive && <BodyVertical/>}
-        {!bodyVerticalActive && <BodyGrid/>}
+        {bodyVerticalActive && <BodyVertical
+          noteData={noteData}
+          updateNote={updateNote}
+          refreshData={refreshData}
+        />}
+        {!bodyVerticalActive && <BodyGrid noteData={noteData}/>}
       </div>
     </div>
   );
