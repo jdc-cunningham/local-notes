@@ -4,11 +4,13 @@ import PlusIcon from '../../../assets/icons/plus-line-icon.svg';
 import Tab from '../../header/tab/Tab';
 
 const TabView = (props) => {
+  const { setShowModal } = props;
+
   return (
     <div className="TabView">
       <div className="TabView__tabs">
         <Tab name="Example" rename="" delete="" />
-        <button type="button" className="TabView__add">
+        <button type="button" className="TabView__add" onClick={() => setShowModal(true)}>
           <img src={PlusIcon} alt="add note"/>
         </button>
       </div>

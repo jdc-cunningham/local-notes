@@ -1,3 +1,29 @@
+#### 12/05/2023
+
+3:35 PM
+
+damn, I'm sleeping way too much, it's like fantasy land to sleep
+
+4:38 PM
+
+quick break
+
+alright let's start putting down some time
+
+- [ ] add note
+
+4:47 PM
+
+ahhh, I have 4 hours to get this done
+
+I gotta stop sleeping 12hrs+ a day, let's go focus mode
+
+4:53 PM
+
+I need this thing to keep track of all the stuff I gotta remember
+
+
+
 #### 12/03/2023
 
 3:38 PM
