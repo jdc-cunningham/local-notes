@@ -72,11 +72,27 @@ I do want a way to hide tabs... and search ahhh
 guess there's still more work to do
 
 - [x] hide tab
-- [ ] search note
+- [x] search note
 
 7:01 PM
 
 alright hide mechanism added
+
+7:08 PM
+
+easiest way to do search note is a modal
+
+you type and then it shows results
+
+just as far as isolating side effects/not modifying other features
+
+7:16 PM
+
+damn I'm losing focus, want to get this done quickly
+
+7:39 PM
+
+working search
 
 #### 12/03/2023
 

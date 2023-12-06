@@ -18,7 +18,7 @@ const renderNoteTabs = (noteData, activeNoteTab, setActiveNoteTab, hideNote, ref
 )
 
 const TabView = (props) => {
-  const { setShowModal, noteData, activeNoteTab, setActiveNoteTab, hideNote, refreshData } = props;
+  const { setShowModal, noteData, activeNoteTab, setActiveNoteTab, hideNote, refreshData, setShowSearchModal } = props;
 
   return (
     <div className="TabView">
@@ -28,7 +28,7 @@ const TabView = (props) => {
           <img src={PlusIcon} alt="add note"/>
         </button>
       </div>
-      <button type="button" className="TabView__search">
+      <button type="button" className="TabView__search" onClick={() => setShowSearchModal(true)}>
         <img src={SearchIcon} alt="search notes"/>
       </button>
     </div>

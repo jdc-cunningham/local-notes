@@ -110,3 +110,26 @@ export const hideNote = (hideNoteName, refreshData) => {
 
   refreshData(modNoteData);
 }
+
+// partial search
+export const searchNotes = (noteNamePartial) => {
+  const noteTabs = JSON.parse(localStorage.getItem('local-notes-tabs')) ?? [];
+  const matchingNotes = noteTabs.filter(noteName => noteName.toLowerCase().includes(noteNamePartial));
+
+  return matchingNotes;
+}
+
+export const getNoteData = (noteName) => {
+  const noteKey = getKeySafeStr(noteName);
+  const noteData = JSON.parse(localStorage.getItem(noteKey));
+
+  if (noteData) {
+    return {
+      name: noteName,
+      key: noteKey,
+      data: noteData
+    };
+  } else {
+    return null;
+  }
+}

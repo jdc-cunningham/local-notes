@@ -10,8 +10,9 @@ import TabSearch from './components/header/tab-search/TabSearch';
 import BodyVertical from './components/body/body-vertical/BodyVertical';
 import BodyGrid from './components/body/body-grid/BodyGrid';
 import AddNote from './components/modal/add-note/AddNote';
+import SearchModal from './components/modal/search-notes/SearchNotes';
 
-import { addNote, getNotes, updateNote, deleteNote, hideNote } from './data';
+import { addNote, getNotes, updateNote, deleteNote, hideNote, searchNotes, getNoteData } from './data';
 
 function App() {
   const [tabViewActive, setTabViewActive] = useState(true);
@@ -19,6 +20,7 @@ function App() {
   const [noteData, setNoteData] = useState([]);
   const [activeNoteTab, setActiveNoteTab] = useState('');
   const [showModal, setShowModal] = useState(false); // only 1 modal right now
+  const [showSearchModal, setShowSearchModal] = useState(false);
 
   // if noteData is provided by param, means UI update not storage
   const refreshData = (modNoteData = []) => {
@@ -43,6 +45,13 @@ function App() {
   return (
     <div className="App">
       {showModal && <AddNote setShowModal={setShowModal} addNote={addNote} refreshData={refreshData}/>}
+      {showSearchModal && <SearchModal
+        setShowSearchModal={setShowSearchModal}
+        noteData={noteData}
+        refreshData={refreshData}
+        searchNotes={searchNotes}
+        getNoteData={getNoteData}
+      />}
       <div className="App__header">
         {tabViewActive && <TabView
           setShowModal={setShowModal}
@@ -51,6 +60,7 @@ function App() {
           setActiveNoteTab={setActiveNoteTab}
           hideNote={hideNote}
           refreshData={refreshData}
+          setShowSearchModal={setShowSearchModal}
         />}
         {!tabViewActive && <TabSearch/>}
         {bodyVerticalActive &&
