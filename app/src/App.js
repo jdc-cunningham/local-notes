@@ -43,23 +43,24 @@ function App() {
         />}
         {!tabViewActive && <TabSearch/>}
         {bodyVerticalActive &&
-          <button type="button" className="App__header-grid-view">
+          <button type="button" className="App__header-grid-view" onClick={() => setBodyVerticalActive(false)}>
             <img src={GridIcon} alt="grid view"/></button>
         }
         {!bodyVerticalActive &&
-          <button type="button" className="App__header-vertical-view">
+          <button type="button" className="App__header-vertical-view" onClick={() => setBodyVerticalActive(true)}>
             <img src={VerticalIcon} alt="vertical view"/>
           </button>
         }
       </div>
       <div className="App__body">
-        {bodyVerticalActive && <BodyVertical
+        <BodyVertical
           noteData={noteData}
           updateNote={updateNote}
           refreshData={refreshData}
           activeNoteTab={activeNoteTab}
-        />}
-        {!bodyVerticalActive && <BodyGrid noteData={noteData}/>}
+          gridView={!bodyVerticalActive}
+        />
+        {/* {!bodyVerticalActive && <BodyGrid noteData={noteData}/>} */}
       </div>
     </div>
   );

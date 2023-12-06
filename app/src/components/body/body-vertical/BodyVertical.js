@@ -1,9 +1,9 @@
 import './BodyVertical.scss';
 import DeleteIcon from '../../../assets/icons/recycle-bin-line-icon.svg';
 
-const renderNoteBodies = (noteData, updateNote, refreshData, activeNoteTab) => (
+const renderNoteBodies = (noteData, updateNote, refreshData, activeNoteTab, gridView) => (
   noteData.map((note, index) => (
-    <div key={index} className={`BodyVertical__note ${note.name === activeNoteTab ? 'active' : ''}`}>
+    <div key={index} className={`BodyVertical__note ${(note.name === activeNoteTab || gridView) ? 'active' : ''}`} title={note.name}>
       <textarea value={note.body} onChange={(e) => updateNote(note.key, e.target.value, refreshData)}/>
       <button type="button" className="BodyVertical__note-delete" title="delete note">
         <img src={DeleteIcon} alt="delete note"/>
@@ -13,11 +13,11 @@ const renderNoteBodies = (noteData, updateNote, refreshData, activeNoteTab) => (
 )
 
 const BodyVertical = (props) => {
-  const { noteData, updateNote, refreshData, activeNoteTab } = props;
+  const { noteData, updateNote, refreshData, activeNoteTab, gridView } = props;
 
   return (
-    <div className="BodyVertical">
-      {renderNoteBodies(noteData, updateNote, refreshData, activeNoteTab)}
+    <div className={`BodyVertical ${gridView ? 'grid' : ''}`}>
+      {renderNoteBodies(noteData, updateNote, refreshData, activeNoteTab, gridView)}
     </div>
   );
 }

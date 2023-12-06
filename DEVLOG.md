@@ -42,6 +42,15 @@ this works right here but no delete, no grid view
 
 I guess I'll go with the original design and show the active tab body... the bodies don't have a way to know which goes with what tab anyway.
 
+6:13 PM
+
+Okay... I think main other feature I want is to switch between tab and grid view
+
+yeah already I'm like "should have built it this way" but don't know ahead of time
+
+- [ ] grid view
+- [ ] delete note
+
 
 
 #### 12/03/2023

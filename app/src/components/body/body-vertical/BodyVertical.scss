@@ -5,6 +5,16 @@
   flex-direction: column;
   padding: 0.5rem 0;
   width: 100%;
+
+  &.grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .BodyVertical__note {
+      width: calc(50% - 0.5rem);
+      margin: 0.25rem;
+    }
+  }
 }
 
 .BodyVertical__note {
