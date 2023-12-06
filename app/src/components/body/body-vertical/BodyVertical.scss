@@ -13,6 +13,10 @@
     .BodyVertical__note {
       width: calc(50% - 0.5rem);
       margin: 0.25rem;
+
+      textarea {
+        height: calc(50vh - 100px);
+      }
     }
   }
 }
