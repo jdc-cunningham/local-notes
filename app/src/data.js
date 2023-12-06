@@ -90,3 +90,23 @@ export const deleteNote = (deleteNoteName, refreshData) => {
     }
   }
 }
+
+export const hideNote = (hideNoteName, refreshData) => {
+  const noteTabs = JSON.parse(localStorage.getItem('local-notes-tabs')) ?? [];
+
+  const modNoteData = [];
+
+  noteTabs.forEach(noteName => {
+    const noteNameKey = getKeySafeStr(noteName); // duplicate compute
+
+    if (noteName !== hideNoteName) {
+      modNoteData.push({
+        name: noteName,
+        key: noteNameKey,
+        data: JSON.parse(localStorage.getItem(noteNameKey)) ?? '',
+      });
+    }
+  });
+
+  refreshData(modNoteData);
+}

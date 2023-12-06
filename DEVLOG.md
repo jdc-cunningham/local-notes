@@ -71,10 +71,12 @@ I do want a way to hide tabs... and search ahhh
 
 guess there's still more work to do
 
-- [ ] hide tab
+- [x] hide tab
 - [ ] search note
 
+7:01 PM
 
+alright hide mechanism added
 
 #### 12/03/2023
 
