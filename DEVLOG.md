@@ -38,6 +38,12 @@ alright, starting to have something that works now
 
 this works right here but no delete, no grid view
 
+5:59 PM
+
+I guess I'll go with the original design and show the active tab body... the bodies don't have a way to know which goes with what tab anyway.
+
+
+
 #### 12/03/2023
 
 3:38 PM
