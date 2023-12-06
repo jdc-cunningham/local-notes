@@ -1,5 +1,6 @@
 - [x] 12/06/2023 on creating first note, UI loads as blank
 - [x] 12/06/2023 modifying note blank page
+- [x] 12/06/2023 modifying tab focuses first tab
 
 12/06/2023
 
@@ -20,3 +21,11 @@ yeah `onChange` fires on every keystroke, need to batch that like the search
 I tried to update that and it won't work because the value is populated by `localStorage` so the debouncer stops the `textarea`` from updating in real time while you type as you would expect
 
 oh well this doesn't have to be performant
+
+5:04 PM
+
+oh man another one lol... need to set the active tab when updating
+
+5:08 PM
+
+well it was easy to fix

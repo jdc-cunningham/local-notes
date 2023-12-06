@@ -33,10 +33,6 @@ function App() {
   }
 
   useEffect(() => {
-    setActiveNoteTab(noteData.length ? noteData[0].name : '');
-  }, [noteData]);
-
-  useEffect(() => {
     const noteData = getNotes();
     setActiveNoteTab(noteData.length ? noteData[0].name : '');
     setNoteData(noteData);
