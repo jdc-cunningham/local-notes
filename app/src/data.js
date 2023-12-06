@@ -37,11 +37,11 @@ export const getNotes = () => {
     noteTabs.forEach(noteName => {
       const noteNameKey = getKeySafeStr(noteName); // duplicate compute
 
-      if (noteNameKey in noteNameDataKeyMap) {
+      if (noteName in noteNameDataKeyMap) {
         noteData.push({
           name: noteName,
           key: noteNameKey,
-          body: JSON.parse(localStorage.getItem(noteNameKey)) ?? '',
+          data: JSON.parse(localStorage.getItem(noteNameKey)) ?? '',
         });
       }
     });

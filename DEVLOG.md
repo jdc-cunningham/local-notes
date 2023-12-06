@@ -49,7 +49,7 @@ Okay... I think main other feature I want is to switch between tab and grid view
 yeah already I'm like "should have built it this way" but don't know ahead of time
 
 - [x] grid view
-- [ ] delete note
+- [x] delete note
 
 ehh... I'm just in this state of mind like this app doesn't matter, it's useful to me but I need to stop working on it and do something else
 
@@ -60,6 +60,21 @@ distracted
 6:39 PM
 
 added delete
+
+6:46 PM
+
+alright I'm good with this for now, no search though
+
+oh crap, the x on the tab is to hide it, not to remove it
+
+I do want a way to hide tabs... and search ahhh
+
+guess there's still more work to do
+
+- [ ] hide tab
+- [ ] search note
+
+
 
 #### 12/03/2023
 

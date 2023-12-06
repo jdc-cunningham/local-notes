@@ -40,8 +40,6 @@ function App() {
           noteData={noteData}
           activeNoteTab={activeNoteTab}
           setActiveNoteTab={setActiveNoteTab}
-          refreshData={refreshData}
-          deleteNote={deleteNote}
         />}
         {!tabViewActive && <TabSearch/>}
         {bodyVerticalActive &&
@@ -61,6 +59,7 @@ function App() {
           refreshData={refreshData}
           activeNoteTab={activeNoteTab}
           gridView={!bodyVerticalActive}
+          deleteNote={deleteNote}
         />
         {/* {!bodyVerticalActive && <BodyGrid noteData={noteData}/>} */}
       </div>
