@@ -9,10 +9,19 @@
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   height: 3rem;
+  cursor: pointer;
 
   &:hover {
     .Tab__close {
       display: flex;
+    }
+  }
+
+  &.active {
+    background-color: #282828;
+
+    .Tab__name {
+      color: white;
     }
   }
 }

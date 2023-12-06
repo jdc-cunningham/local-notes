@@ -8,6 +8,7 @@
 }
 
 .BodyVertical__note {
+  display: none;
   position: relative;
   width: 100%;
 
@@ -15,17 +16,21 @@
     margin-top: 0.25rem;
   }
 
+  &:hover {
+    .BodyVertical__note-delete {
+      display: flex;
+    }
+  }
+
+  &.active {
+    display: block;
+  }
+
   textarea {
     width: 100%;
     font-size: 1.5rem;
     padding: 0.5rem;
     border-radius: 4px;
-  }
-
-  &:hover {
-    .BodyVertical__note-delete {
-      display: flex;
-    }
   }
 }
 

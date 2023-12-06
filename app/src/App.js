@@ -17,9 +17,7 @@ function App() {
   const [tabViewActive, setTabViewActive] = useState(true);
   const [bodyVerticalActive, setBodyVerticalActive] = useState(true);
   const [noteData, setNoteData] = useState([]);
-  const [noteTabs, setNoteTabs] = useState([]); // all
-  const [activeNoteTabs, setActiveNoteTabs] = useState([]);
-  const [activeNoteTab, setActiveNoteTab] = useState(0);
+  const [activeNoteTab, setActiveNoteTab] = useState('');
   const [showModal, setShowModal] = useState(false); // only 1 modal right now
 
   const refreshData = () => {
@@ -29,6 +27,7 @@ function App() {
 
   useEffect(() => {
     const noteData = getNotes();
+    setActiveNoteTab(noteData.length ? noteData[0].name : '');
     setNoteData(noteData);
   }, []);
 
@@ -36,7 +35,12 @@ function App() {
     <div className="App">
       {showModal && <AddNote setShowModal={setShowModal} addNote={addNote} refreshData={refreshData}/>}
       <div className="App__header">
-        {tabViewActive && <TabView setShowModal={setShowModal} noteData={noteData}/>}
+        {tabViewActive && <TabView
+          setShowModal={setShowModal}
+          noteData={noteData}
+          activeNoteTab={activeNoteTab}
+          setActiveNoteTab={setActiveNoteTab}
+        />}
         {!tabViewActive && <TabSearch/>}
         {bodyVerticalActive &&
           <button type="button" className="App__header-grid-view">
@@ -53,6 +57,7 @@ function App() {
           noteData={noteData}
           updateNote={updateNote}
           refreshData={refreshData}
+          activeNoteTab={activeNoteTab}
         />}
         {!bodyVerticalActive && <BodyGrid noteData={noteData}/>}
       </div>
