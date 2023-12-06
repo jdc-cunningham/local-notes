@@ -15,3 +15,8 @@ there was one other thing I had in mind... the data save is syncrhonous and I th
 
 yeah `onChange` fires on every keystroke, need to batch that like the search
 
+4:18 PM
+
+I tried to update that and it won't work because the value is populated by `localStorage` so the debouncer stops the `textarea`` from updating in real time while you type as you would expect
+
+oh well this doesn't have to be performant
