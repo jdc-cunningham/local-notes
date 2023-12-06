@@ -29,3 +29,7 @@ oh man another one lol... need to set the active tab when updating
 5:08 PM
 
 well it was easy to fix
+
+5:16 PM
+
+this still has problems in a new state
