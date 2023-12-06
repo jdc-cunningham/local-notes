@@ -94,6 +94,8 @@ damn I'm losing focus, want to get this done quickly
 
 working search
 
+I will have to put this in an electron wrapper next so I have a little app but that's just copy paste.
+
 #### 12/03/2023
 
 3:38 PM
