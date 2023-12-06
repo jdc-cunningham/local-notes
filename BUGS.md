@@ -1,0 +1,1 @@
+- [ ] 12/06/2023 on creating first note, UI loads as blank
