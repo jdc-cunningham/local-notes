@@ -69,3 +69,24 @@ export const updateNote = (noteKey, noteData, refreshData) => {
     console.error(error);
   }
 }
+
+export const deleteNote = (deleteNoteName, refreshData) => {
+  if (window.confirm(`Delete note: ${deleteNoteName}?`)) {
+    try {
+      const deleteNoteKey = getKeySafeStr(deleteNoteName);
+      const noteTabs = JSON.parse(localStorage.getItem('local-notes-tabs')) ?? [];
+      const noteNameDataKeyMap = JSON.parse(localStorage.getItem('local-notes-key-map')) ?? {};
+  
+      const updatedNoteTabs = noteTabs.filter(noteName => noteName !== deleteNoteName);
+      delete noteNameDataKeyMap[deleteNoteKey];
+  
+      localStorage.setItem('local-note-tabs', JSON.stringify(updatedNoteTabs));
+      localStorage.setItem('local-notes-key-map', JSON.stringify(noteNameDataKeyMap));
+      localStorage.removeItem(deleteNoteKey);
+      refreshData();
+    } catch (error) {
+      alert('Failed to delete note.');
+      console.error(error);
+    }
+  }
+}

@@ -48,10 +48,18 @@ Okay... I think main other feature I want is to switch between tab and grid view
 
 yeah already I'm like "should have built it this way" but don't know ahead of time
 
-- [ ] grid view
+- [x] grid view
 - [ ] delete note
 
+ehh... I'm just in this state of mind like this app doesn't matter, it's useful to me but I need to stop working on it and do something else
 
+6:32 PM
+
+distracted
+
+6:39 PM
+
+added delete
 
 #### 12/03/2023
 

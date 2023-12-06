@@ -11,7 +11,7 @@ import BodyVertical from './components/body/body-vertical/BodyVertical';
 import BodyGrid from './components/body/body-grid/BodyGrid';
 import AddNote from './components/modal/add-note/AddNote';
 
-import { addNote, getNotes, updateNote } from './data';
+import { addNote, getNotes, updateNote, deleteNote } from './data';
 
 function App() {
   const [tabViewActive, setTabViewActive] = useState(true);
@@ -40,6 +40,8 @@ function App() {
           noteData={noteData}
           activeNoteTab={activeNoteTab}
           setActiveNoteTab={setActiveNoteTab}
+          refreshData={refreshData}
+          deleteNote={deleteNote}
         />}
         {!tabViewActive && <TabSearch/>}
         {bodyVerticalActive &&
