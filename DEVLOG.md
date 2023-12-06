@@ -96,6 +96,14 @@ working search
 
 I will have to put this in an electron wrapper next so I have a little app but that's just copy paste.
 
+7:49 PM
+
+Nice it's packaged
+
+I'll use this, and will make updates if needed
+
+<img src="./devlog-images/electron.JPG"/>
+
 #### 12/03/2023
 
 3:38 PM
