@@ -8,7 +8,7 @@
 
 .TabView__tabs {
   overflow: auto hidden;
-  max-width: calc(100vw - 70px);
+  max-width: calc(100vw - 118px); /* magic number */
 }
 
 .TabView__tabs .Tab {
