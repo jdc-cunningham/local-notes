@@ -1,6 +1,13 @@
 - [x] 12/06/2023 on creating first note, UI loads as blank
 - [x] 12/06/2023 modifying note blank page
 - [x] 12/06/2023 modifying tab focuses first tab
+- [x] 12/07/2023 overflow tabs
+
+12/07/2023
+
+12:36 AM
+
+starting to add stuff, still bad
 
 12/06/2023
 

@@ -6,6 +6,11 @@
   flex: 1;
 }
 
+.TabView__tabs {
+  overflow: auto hidden;
+  max-width: calc(100vw - 70px);
+}
+
 .TabView__tabs .Tab {
   &:not(:first-of-type) {
     margin-left: 0.5rem;
