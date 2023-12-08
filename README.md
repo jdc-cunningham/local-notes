@@ -8,7 +8,7 @@ Intended to be a static web build or in ElectronJS wrapper.
 
 ### Try it (saves to your browser)
 
-
+[Live Build](https://jdc-cunningham.github.io/local-notes/)
 
 ### Notes
 
