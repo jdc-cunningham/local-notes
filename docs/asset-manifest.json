@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.61219423.css",
+    "main.js": "./static/js/main.21d2276e.js",
+    "static/js/787.0f8d78ff.chunk.js": "./static/js/787.0f8d78ff.chunk.js",
+    "static/media/recycle-bin-line-icon.svg": "./static/media/recycle-bin-line-icon.0b40b7d3aa7c0428a0f28b776bf48283.svg",
+    "static/media/four-squares-line-icon.svg": "./static/media/four-squares-line-icon.0e81235d459d6c021ced6a68eef5cc01.svg",
+    "static/media/plus-line-icon.svg": "./static/media/plus-line-icon.6f8bb982f4625616bac12f07df57100a.svg",
+    "static/media/search-line-icon.svg": "./static/media/search-line-icon.20cb9e2a48c5ba94ac5bebcfc08704df.svg",
+    "static/media/close-line-icon.svg": "./static/media/close-line-icon.c9f06633512b33ab662fc42d0fee26cd.svg",
+    "index.html": "./index.html",
+    "static/media/three-horizontal-lines-outline-icon.svg": "./static/media/three-horizontal-lines-outline-icon.39a9735f71dcf7157b9bfeb84d1f2408.svg",
+    "main.61219423.css.map": "./static/css/main.61219423.css.map",
+    "main.21d2276e.js.map": "./static/js/main.21d2276e.js.map",
+    "787.0f8d78ff.chunk.js.map": "./static/js/787.0f8d78ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61219423.css",
+    "static/js/main.21d2276e.js"
+  ]
+}
