@@ -25,10 +25,12 @@ function App() {
   // if noteData is provided by param, means UI update not storage
   const refreshData = (modNoteData = []) => {
     if (modNoteData.length){
+      setActiveNoteTab(modNoteData[0].name);
       setNoteData(modNoteData);
     } else {
-      const noteData = getNotes();
-      setNoteData(noteData);
+      const curNoteData = getNotes();
+      setActiveNoteTab(curNoteData.length ? curNoteData[0].name : '');
+      setNoteData(curNoteData);
     }
   }
 

@@ -1,7 +1,16 @@
 - [x] 12/06/2023 on creating first note, UI loads as blank
+  - [x] 12/08/2023 still a problem
 - [x] 12/06/2023 modifying note blank page
 - [x] 12/06/2023 modifying tab focuses first tab
 - [x] 12/07/2023 overflow tabs
+
+12/08/2023
+
+4:12 PM
+
+Alright, this one was because the active note tab was not set and only 1 tab, not visible
+
+I did change the variable name just due to global scoping in case that was an issue
 
 12/07/2023
 
